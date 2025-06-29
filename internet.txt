@@ -1,0 +1,59 @@
+internet 
+  The internet is a network of interconnected computers that communicate with each other   using standardized protocols.
+
+standardized protocols :
+   these are two words right;
+   standardized: somethings we all agree on 
+   protocol: rules 
+
+so we could say sp are set of instructions agreed upon  so computers can communicate effectively
+
+switch device 
+  a device for that allows communication btw computers within the same Lan 
+
+Lan
+  local area network 
+
+
+router
+ delivers packets from a computer to the internet 
+
+isp
+internet service provider: basically takes your packets from the router and sends it to the final destination where the data requested are stored or to be posted and these process involve both wireless and wired connection
+
+
+fiber optics cable
+fastest data transmission device are
+
+router table
+the algorithm that decides the most efficient  path btw interconnected routers a router should transfer packets to
+
+
+
+streaming
+when packets are sent in little by little and depends heavily on your internet speed
+
+servers
+an organization dB storage 
+
+load balancing
+a way to manage heavy request to a single point from multiple computers 
+
+
+Wan (wide area network)
+connection of multiple lans 
+the internet is made of wans cuz it is network of network 
+ but not all wans makes up the internet cuz private organizations could set up their own private wan by connecting their lans
+
+
+
+vpn - virtual private network
+vpn tunnel link create privacy, anonymity, security trust over a public network
+it encrypt your data sent over a publk network eeping your data secure from unautorized access
+
+ encryption: putting data in a way unauthorized person cannt read
+encapsulation : tunnel link iz  a form of encapsulation , wrapping data packets in another packets
+
+add to add encryption
+
+

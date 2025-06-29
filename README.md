@@ -10,4 +10,8 @@
 
 ---
 
+## wip tho
+
+---
+
 - 1. [how the internet works](/note/INTERNET.md)
