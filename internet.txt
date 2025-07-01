@@ -19,7 +19,7 @@ router
  delivers packets from a computer to the internet 
 
 isp
-internet service provider: basically takes your packets from the router and sends it to the final destination where the data requested are stored or to be posted and these process involve both wireless and wired connection
+internet service provider: basically takes your packets from the router and sends it to the final destination where the data requested are stored or to be posted and these process involve both wireless and wired connection --responsible for the transmission of packets from one location to the other
 
 
 fiber optics cable
@@ -55,5 +55,39 @@ it encrypt your data sent over a publk network eeping your data secure from unau
 encapsulation : tunnel link iz  a form of encapsulation , wrapping data packets in another packets
 
 add to add encryption
+
+
+lan for switches -- more secure
+
+wan for routers  -- less secure
+
+public wans 
+- linking up lans through the internet; which is unsecure
+-could also utilize vpn to create a tunnel link -- which provides better security but still over the public internet
+
+private wans - through isp wan network - can be costly 
+these are dedicated infastructure; created through the isp, to provide a fully secured private connction to authorized hooman- basically creating a private internet 
+
+
+
+router -- connect different network to the internet 
+
+
+
+local isps-- a small isp serving small community 
+
+regional isps -- sevring large city in a country
+
+global isps -- serving internarionally
+
+pop -- point of presence : basically connects the routers of difernt isps ; TO improve connection, data exchange and all
+
+peering-- large companies linking a server to multiples isps for faster connections
+
+networks of different global isps -- is called INternet backbone
+
+ixp -- internet exchange point: are like pop but for global isps aka internet backbone to enable peering btw global isps
+
+
 
 
