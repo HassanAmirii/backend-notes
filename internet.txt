@@ -8,12 +8,16 @@ standardized protocols :
 
 so we could say sp are set of instructions agreed upon  so computers can communicate effectively
 
+TCP ensures that data packets are sent and received in the correct order.
+
 switch device 
   a device for that allows communication btw computers within the same Lan 
 
 Lan
   local area network 
 
+
+https ensures communication between a website and a server are secure basically encrypted from hackers or tamperes, also verifies the identity of the receiver using ssl/tls certificate 
 
 router
  delivers packets from a computer to the internet 
