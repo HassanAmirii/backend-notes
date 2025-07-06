@@ -7,38 +7,56 @@ But you will know enough to try impress and get a follow back from some 40yo man
 
 #### Short history of the internet
 
-Come with me to America durig the [cold war](https://www.historyonthenet.com/cold-war) in the 1950s, The launch of [Sputnik](https://www.havefunwithhistory.com/facts-about-sputnik/) by the Soviet Union in 1957 spurred the U.S. to invest heavily in scientific and technological research, The idea was that the U.S only relied on a centralized telephone network, Which is really a big problem at the time because If a central hub was destroyed, communication could be completely cut off.
+Come with me to America during the [cold war](https://www.historyonthenet.com/cold-war) in the 1950s, The launch of [Sputnik](https://www.havefunwithhistory.com/facts-about-sputnik/) by the Soviet Union in 1957 spurred the U.S. to invest heavily in scientific and technological research, The idea was that the U.S only relied on a centralized telephone network, Which is really a big problem at the time because If a central hub was destroyed, communication could be completely cut off.
 
 So the idea of a distributed network was born based on a concept known as packet switching; What this means is that, instead of transmitting data or packets to another computer with only one possible route, we could distribute the packets over many route
 
 If one route is destroyed, The packets can just easily re-route to get to their specific destination. for more in-depth history you can check [history of the internet](https://historycooperative.org/who-invented-the-internet/).
 
-#### network
+#### What is the internet
 
-- It'd be easier if you visualize network as links or connections
+The internet is a network of interconnnected computers that communicate with each other using standardized protocols.
 
-- standardized protocols :
+(imge)
+
+#### How does the internet works?
+
+It would be more easier for you to understand, if you are familiar with most of the terms below, you don't have to worry about memorizing, once we start using it all together it would all click.
+
+- **standardized protocols:**
   these are two words right;
-  standardized: somethings we all agree on,
-  protocol: rules
+  standardized: Things we all agree on,
+  protocol: rules of how we do those things,
+  so we could say standardized protocols are set of rules agreed upon so computers can communicate effectively.
 
-so we could say standardized protocols are set of instructions agreed upon so computers can communicate effectively.
+- **packets:** These are the data you and i send and receive from one computer to the other, but in terms of _internet_ we call it packets
 
-TCP ensures that data packets are sent and received in the correct order.
+- **Ip (Internet protocol):** This is a set of rules that governs how data/packets are transmitted.
 
-switch device
-a device for that allows communication btw computers within the same Lan
+- **TCP (Transmission control protocol):** This is another set of rules that ensures packets are sent and received in the correct order.
 
-Lan
-local area network
+- **Ip address:** We all need this to connect to the internet in the first place, It's in charge of allocating the destination of packets we send and receive, represented as four sets of numbers, separated by periods, For example: 192.168.1.1 or 172.20.10.4
 
-https ensures communication between a website and a server are secure basically encrypted from hackers or tamperes, also verifies the identity of the receiver using ssl/tls certificate
+- **Isp (Internet service provider):**
+  responsible for the transmission of packets from one location to the other.
 
-router
-delivers packets from a computer to the internet
+- **Lan:** Local area network, it is the connection of computers within a small area, eg a school or campus.
 
-isp
-internet service provider: basically takes your packets from the router and sends it to the final destination where the data requested are stored or to be posted and these process involve both wireless and wired connection --responsible for the transmission of packets from one location to the other
+- **Wan (wide area network):**
+  connection of multiple lans,
+  The internet is made of wans because it is network of network(wans of wans). The inetrnet is made of wans but not all wans makes up the internet.
+
+- **switch device:**
+  a device that allows communication between computers within the same Lan.
+
+- **router:**
+  delivers packets from your computer to the internet.
+
+- **http:** (Hyper text transmission protocol),
+  it's a protocol that is responsible for communication between a website and a server although without security.
+
+- **https:** (Hyper text transmission protocol secure),
+  it's a protocol that is responsible for communication between a website and a server, It provides security basically encrypted from hackers, also verifies the identity of the receiver using ssl/tls certificate
 
 fiber optics cable
 fastest data transmission device are
@@ -55,9 +73,6 @@ an organization dB storage
 load balancing
 a way to manage heavy request to a single point from multiple computers
 
-Wan (wide area network)
-connection of multiple lans
-the internet is made of wans cuz it is network of network
 but not all wans makes up the internet cuz private organizations could set up their own private wan by connecting their lans
 
 vpn - virtual private network
