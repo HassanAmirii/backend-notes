@@ -52,14 +52,11 @@ It would be more easier for you to understand, if you are familiar with most of 
 - **router:**
   delivers packets from your computer to the internet.
 
-- **http:** (Hyper text transmission protocol),
-  it's a protocol that is responsible for communication between a website and a server although without security.
+- **HTTP (Hypertext Transfer Protocol):** It's a foundational protocol responsible for communication between a web browser (client) and a web server, enabling the exchange of web pages and other web content. However, HTTP itself does not provide any security, meaning data transmitted over it is unencrypted and vulnerable.
 
-- **https:** (Hyper text transmission protocol secure),
-  it's a protocol that is responsible for communication between a website and a server, It provides security basically encrypted from hackers, also verifies the identity of the receiver using ssl/tls certificate
-
-fiber optics cable
-fastest data transmission device are
+- **HTTPS (Hypertext Transfer Protocol Secure):** This is the secure version of HTTP. It uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt the communication between a web browser and a server. This encryption protects data packets from being intercepted or read by unauthorized parties ("hackers"). Additionally, HTTPS uses SSL/TLS certificates to verify the identity of the server (the website you are connecting to), ensuring the authenticity and trustworthiness of the connection.
+  fiber optics cable
+  fastest data transmission device are
 
 router table
 the algorithm that decides the most efficient path btw interconnected routers a router should transfer packets to
