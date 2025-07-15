@@ -3,7 +3,7 @@
 How does the internet work? The understanding of how the internet works has always seem like magic to most of us, Or some of us just don't care, and that's alright for a non technical person, but as a developer understanding how the internet works is really crucial in creating applications that communicate over networks and ensuring data are transmitted securely.
 
 We won't be going that much in depth in this essay,
-But you will know enough to try impress and get a follow back from some 40yo man anime waifu pfp for no reason on [twitter](https://x.com/HassanAmiriiii).
+But you will know enough to understand the basic concepts of the internet.
 
 ## Short history of the internet
 
@@ -61,7 +61,8 @@ understanding these basic concepts would really help you digest the flow of how 
   a device that allows communication between computers within the same Lan.
 
 - **router:**
-  delivers packets from your computer to the internet.
+  It's the main device that takes packets to the internet,
+  It delivers packets from your computer to the internet.
 
 - **router table:**
   the algorithm that decides the most efficient path to transfer packets between interconnected routers.
@@ -78,44 +79,8 @@ understanding these basic concepts would really help you digest the flow of how 
 
 - **HTTPS (Hypertext Transfer Protocol Secure):** This is the secure version of HTTP. It uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt the communication between a web browser and a server. This encryption protects data packets from being intercepted or read by unauthorized parties ("hackers"). Additionally, HTTPS uses SSL/TLS certificates to verify the identity of the server (the website you are connecting to), ensuring the authenticity and trustworthiness of the connection.
 
-load balancing
-a way to manage heavy request to a single point from multiple computers
+# conclusion
 
-but not all wans makes up the internet cuz private organizations could set up their own private wan by connecting their lans
+we've covered enough to get the basic understanding of how the internet works, Also this blog was written for me to put my understanding in place from following the backend road map on [roadmap.sh/backend](https://roadmap.sh/backend),
 
-vpn - virtual private network
-vpn tunnel link create privacy, anonymity, security trust over a public network
-it encrypt your data sent over a publk network eeping your data secure from unautorized access
-
-encryption: putting data in a way unauthorized person cannt read
-encapsulation : tunnel link iz a form of encapsulation , wrapping data packets in another packets
-
-add to add encryption
-
-lan for switches -- more secure
-
-wan for routers -- less secure
-
-public wans
-
-- linking up lans through the internet; which is unsecure
-  -could also utilize vpn to create a tunnel link -- which provides better security but still over the public internet
-
-private wans - through isp wan network - can be costly
-these are dedicated infastructure; created through the isp, to provide a fully secured private connction to authorized hooman- basically creating a private internet
-
-router -- connect different network to the internet
-
-local isps-- a small isp serving small community
-
-regional isps -- sevring large city in a country
-
-global isps -- serving internarionally
-
-pop -- point of presence : basically connects the routers of difernt isps ; TO improve connection, data exchange and all
-
-peering-- large companies linking a server to multiples isps for faster connections
-
-networks of different global isps -- is called INternet backbone
-
-ixp -- internet exchange point: are like pop but for global isps aka internet backbone to enable peering btw global isps
+If you'd like to correct me or you dont understand a particular concepts, you could hit my mail: hassanamiri.ai@gmail.com or reach out on [twitter](https://x.com/HassanAmiriiii).
