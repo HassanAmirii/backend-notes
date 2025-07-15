@@ -36,4 +36,11 @@ After the certificate has been validated, both the client and server create a se
 **step 4 (secure connection established):**
 After the session key has been succesfully initiated, both client and server can now communicate securely-- you can now use your cards or interact safely with amazon online.
 
-step 5 (closing the connection):
+**step 5 (closing the connection):**
+Now once you log out of amazon or any other server, your session key is discarded, ensuring that even if the data is somehow captured by hackers, they wont be able to decrypt it without the session key.
+
+## conclusion:
+
+We've covered enough to understand how https works behind the scenes--HTTP on it own is just a protocol to transmit data online without any security once you add that little s (secure), now you've employed ssl/tls to encrypt your data from `eave droppers 👈👉 (is this even the spelling lol) any ways this blog was written for me to put my understanding in place from following the backend road map on [roadmap.sh/backend](https://roadmap.sh/backend),
+
+If you'd like to correct me or you dont understand a particular concepts, you could hit my mail: hassanamiri.ai@gmail.com or reach out on [twitter](https://x.com/HassanAmiriiii).
