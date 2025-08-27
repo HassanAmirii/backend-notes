@@ -8,3 +8,4 @@
 5.  [oh ternary operator is goated](/note/ternary.md)
 6.  [how to create a database schema (or model) with mongoose](/note/expense_schema.md)
 7.  [how to create a username/password hashing database schema (or model)](/note/user_schema.md)
+8.  [introduction to jwt](/note/intro_to_jwt.md)

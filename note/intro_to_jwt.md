@@ -68,10 +68,10 @@ I'm assuming you can set up an express server and setup a mongoose model to regi
 // put in mind 'User' is our model name
 
 app.post("/login", async (req, res) => {
-  const { username, passoword } = req.body;
+  const { username, password } = req.body;
 
   try {
-    const user = await User.findBy();
+    const user = await User.findUserInDatabase(username);
 
     if (!user || (await bcrypt.compare(password, User.passoword))) {
       return res.status(401).json({ message: "invalid credentials" });
@@ -91,6 +91,7 @@ app.post("/login", async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+//
 
 function verifyToken(req, res, next) {
   const authHeader = req.header["authorization"];
