@@ -158,3 +158,5 @@ app.listen(PORT, () => {
 ```
 
 Now you can confidently implement jwt into your server, Happy coding.
+
+_Thanks to a fellow coder for proof reading_
