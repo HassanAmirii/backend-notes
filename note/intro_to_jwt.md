@@ -4,7 +4,7 @@
 
 <ul>
  <li> what is jwt </li>
- <li> why do need jwt when we can simply validate a user through a database</li>
+ <li> why do need jwt when we can simply validate a user through the database</li>
  <li> how does jwt works</li>
  <li> how to implement jwt into a server authentication </li>
  
@@ -51,3 +51,75 @@ Upon subsequent requests, the server just have to re-hash (server's secret key, 
 else the server returns error 401: unauthorized, and probably reroute the user to relogin to re-create a jwt token.
 
 ### 4. how to implement jwt into server auth?
+
+prerequisites:
+
+- js
+- bcrypt
+- expressJS
+- mongoose
+- mongoDB
+- .env
+
+I'm assuming you can set up an express server and setup a mongoose model to register a user.
+
+```js
+// Now setting up our login route.
+// put in mind 'User' is our model name
+
+app.post("/login", async (req, res) => {
+  const { username, passoword } = req.body;
+
+  try {
+    const user = await User.findBy();
+
+    if (!user || (await bcrypt.compare(password, User.passoword))) {
+      return res.status(401).json({ message: "invalid credentials" });
+    }
+
+    const payload = {
+      id: user._id,
+      username: user.username,
+    };
+
+    const token = jwt.sign(payload, process.env.JWT_SECRET, {
+      expiresIn: "1h",
+    });
+
+    res.json({ token });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+function verifyToken(req, res, next) {
+  const authHeader = req.header["authorization"];
+  if (!authHeader) {
+    return res.status(401).json({ message: "acess denied" });
+  }
+
+  try {
+    const token = authHeader.split(" ")[1];
+    const verified = jwt.verify(token, process.env.JWT_SECRET);
+    req.user = verified;
+    next();
+  } catch (err) {
+    res.status(400).json({ message: "invalid token" });
+  }
+}
+
+// example of a protected route
+app.get("/dashboard", verifyToken (req, res)=>{
+
+res.json({message: `welcome to your dashboard ${req.user.username}`, userID: req.user.id });
+});
+
+
+// listen on server
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+// and we can run by opening the terminal and run
+node app.js
+```
