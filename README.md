@@ -9,3 +9,4 @@
 6.  [how to create a database schema (or model) with mongoose](/note/expense_schema.md)
 7.  [how to create a username/password hashing database schema (or model)](/note/user_schema.md)
 8.  [introduction to jwt](/note/intro_to_jwt.md)
+9.  [introduction to prisma](/note/prisma.md)
